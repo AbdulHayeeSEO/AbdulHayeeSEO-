@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Hayee SEO - Premium German Link Building Specialist</title>
+    <!-- EMBEDDED INTERNAL STYLING FOR BULLETPROOF LOADING -->
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: sans-serif; background-color: #030712; color: #f3f4f6; line-height: 1.6; }
+        html { scroll-behavior: smooth; }
+        
+        /* Layout Utilities */
+        .max-w-7xl { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+        .grid { display: grid; gap: 32px; }
+        @media (min-width: 768px) {
+            .md\:grid-cols-2 { grid-template-cols: repeat(2, minmax(0, 1fr)); }
+            .md\:grid-cols-3 { grid-template-cols: repeat(3, minmax(0, 1fr)); }
+            .lg\:grid-cols-4 { grid-template-cols: repeat(4, minmax(0, 1fr)); }
+        }
+        
+        /* Navigation */
+        nav { position: sticky; top: 0; z-index: 50; background-color: rgba(3, 7, 18, 0.9); border-bottom: 1px solid #1f2937; padding: 16px 0; backdrop-filter: blur(8px); }
+        .nav-container { display: flex; justify-content: space-between; items-center; }
+        .logo { font-size: 20px; font-weight: bold; tracking-wide: 0.05em; color: #10b981; text-decoration: none; }
+        .nav-links a { color: #d1d5db; text-decoration: none; margin-left: 32px; font-size: 14px; font-weight: 500; transition: 0.2s; }
+        .nav-links a:hover { color: #10b981; }
+        
+        /* Hero Section with Personal Image Background */
+        .hero-bg {
+            min-height: 85vh;
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(to right, rgba(3, 7, 18, 0.95) 40%, rgba(3, 7, 18, 0.5) 100%), url('https://ibb.co');
+            background-size: cover;
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding: 80px 0;
+        }
+        .hero-content { max-width: 650px; }
+        .badge { display: inline-block; padding: 4px 12px; background-color: rgba(16, 185, 129, 0.1); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.2); rounded-radius: 9999px; font-size: 12px; font-weight: 600; text-transform: uppercase; margin-bottom: 16px; border-radius: 20px; }
+        h1 { font-size: 48px; font-weight: 800; tracking: -0.025em; line-height: 1.2; margin-bottom: 24px; color: #fff; }
+        .hero-p { font-size: 18px; color: #9ca3af; margin-bottom: 32px; }
+        
+        /* Buttons */
+        .btn-primary { display: inline-block; background-color: #10b981; color: #030712; padding: 16px 32px; border-radius: 12px; font-weight: bold; text-decoration: none; text-align: center; transition: 0.2s; box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.2); }
+        .btn-primary:hover { background-color: #059669; }
+        .btn-secondary { display: inline-block; border: 1px solid #374151; color: #fff; padding: 16px 32px; border-radius: 12px; font-weight: bold; text-decoration: none; text-align: center; transition: 0.2s; margin-left: 16px; }
+        .btn-secondary:hover { border-color: #10b981; color: #10b981; }
+        .btn-chat { background-color: #10b981; color: #030712; padding: 8px 20px; border-radius: 9999px; font-weight: 600; text-decoration: none; font-size: 14px; }
+        
+        /* Trust Metrics Bar */
+        .metrics-bar { background-color: #111827; border-top: 1px solid #1f2937; border-bottom: 1px solid #1f2937; padding: 40px 0; text-align: center; }
+        .metric-card h3 { font-size: 32px; font-weight: 800; color: #10b981; margin-bottom: 4px; }
+        .metric-card p { font-size: 12px; color: #9ca3af; text-transform: uppercase; tracking-wider: 0.05em; }
+        
+        /* Sections General */
+        .section-py { padding: 96px 0; }
+        .section-title { text-align: center; margin-bottom: 64px; }
+        .section-title h2 { font-size: 36px; font-weight: 700; margin-bottom: 16px; color: #fff; }
+        .section-title p { color: #9ca3af; max-w: 600px; margin: 0 auto; }
+        
+        /* Services & Cards */
+        .card { background-color: #111827; border: 1px solid #1f2937; padding: 32px; border-radius: 24px; transition: 0.3s; }
+        .card:hover { border-color: rgba(16, 185, 129, 0.5); }
+        .card-icon { font-size: 24px; margin-bottom: 24px; }
+        .card h3 { font-size: 20px; font-weight: bold; margin-bottom: 16px; color: #fff; }
+        .card p { color: #9ca3af; font-size: 14px; }
+        
+        /* Niches Grid */
+        .niche-grid { display: grid; grid-template-cols: repeat(2, minmax(0, 1fr)); gap: 16px; }
+        @media (min-width: 768px) { .niche-grid { grid-template-cols: repeat(4, minmax(0, 1fr)); } }
+        .niche-item { background-color: #030712; padding: 24px; border-radius: 12px; border: 1px solid #1f2937; font-weight: 500; text-align: center; transition: 0.2s; }
+        .niche-item:hover { border-color: #10b981; }
+        
+        /* Featured Asset Box */
+        .featured-box { background: linear-gradient(to right, rgba(6, 78, 59, 0.2), rgba(8, 145, 178, 0.2)); border: 1px solid rgba(16, 185, 129, 0.2); padding: 48px; border-radius: 24px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; gap: 32px; }
+        @media (min-width: 768px) { .featured-box { flex-direction: row; text-align: left; } }
+        .featured-box h3 { font-size: 28px; font-weight: bold; margin-bottom: 12px; color: #fff; }
+        .btn-visit { background-color: #fff; color: #030712; padding: 16px 32px; border-radius: 12px; font-weight: bold; text-decoration: none; text-wrap: nowrap; }
+        
+        /* Reviews Block */
+        .review-img-box { background-color: #030712; padding: 16px; border-radius: 24px; border: 1px solid #1f2937; min-height: 250px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .review-img-box img { width: 100%; border-radius: 12px; object-fit: cover; }
+        
+        /* FAQ System */
+        .faq-item { background-color: #111827; border: 1px solid #1f2937; padding: 24px; border-radius: 12px; margin-bottom: 16px; }
+        .faq-item h4 { color: #10b981; font-weight: bold; margin-bottom: 8px; }
+        .faq-item p { color: #9ca3af; font-size: 14px; }
+        
+        /* Contact Split */
+        .contact-grid { display: grid; grid-template-cols: 1fr; gap: 48px; }
+        @media (min-width: 1024px) { .contact-grid { grid-template-cols: repeat(2, minmax(0, 1fr)); } }
+        .contact-details p { margin-bottom: 16px; color: #e5e7eb; }
+        .contact-details span { color: #10b981; font-weight: bold; margin-right: 8px; }
+        .contact-box { background-color: #111827; border: 1px solid #1f2937; padding: 32px; border-radius: 24px; text-align: center; }
+        .btn-wa-full { display: block; background-color: #10b981; color: #030712; padding: 14px; border-radius: 12px; font-weight: bold; text-decoration: none; margin-top: 24px; }
+    </style>
+</head>
+<body>
+
+    <!-- STICKY NAVIGATION BAR -->
+    <nav>
+        <div class="max-w-7xl nav-container">
+            <a href="#hero" class="logo">ABDUL HAYEE SEO</a>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#services">Services</a>
+                <a href="#niches">Niches</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="https://wa.me" target="_blank" class="btn-chat">Let's Chat</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION WITH INTEGRATED STYLE -->
+    <header id="hero" class="hero-bg">
+        <div class="max-w-7xl">
+            <div class="hero-content">
+                <span class="badge">🏆 European Link Building Authority</span>
+                <h1>Premium German Guest Posting Specialist</h1>
+                <p class="hero-p">Helping international brands and SEO agencies dominate Google Germany (Google.de) with high-authority, contextual, do-follow backlinks and bulletproof manual outreach.</p>
+                <div>
+                    <a href="https://wa.me" target="_blank" class="btn-primary">Get Fresh Inventory (WhatsApp)</a>
+                    <a href="#services" class="btn-secondary">View Solutions</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TRUST METRICS BAR -->
+    <section class="metrics-bar">
+        <div class="max-w-7xl grid lg:grid-cols-4 md:grid-cols-2">
+            <div class="metric-card"><h3>500+</h3><p>German Sites Available</p></div>
+            <div class="metric-card"><h3>DR 80+</h3><p>Max Domain Authority</p></div>
+            <div class="metric-card"><h3>0%</h3><p>Spam Score / Clean Profiles</p></div>
+            <div class="metric-card"><h3>72h</h3><p>Fast Publishing Loop</p></div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section-py max-w-7xl">
+        <div class="section-title">
+            <h2>Core SEO Link-Building Services</h2>
+            <p>Tailored outreach and authority placements that pass heavy search engine algorithmic trust.</p>
+        </div>
+        <div class="grid md:grid-cols-3">
+            <div class="card">
+                <div class="card-icon">🇩🇪</div>
+                <h3>German Guest Posting</h3>
+                <p>Dedicated contextual link placement on organic .DE, .AT, and .CH blogs with pure native content curation.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🚀</div>
+                <h3>Niche Edits & Insertions</h3>
+                <p>Securing permanent contextual do-follow links inside pre-existing, high-traffic, aged European articles.</p>
+            </div>
+            <div class="card">
