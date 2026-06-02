@@ -1,133 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdul Hayee SEO - Premium German Link Building Specialist</title>
+    <script src="https://tailwindcss.com"></script>
+    <link href="https://googleapis.com" rel="stylesheet">
     <style>
-        /* CORE STANDALONE STYLE SHEET - NO EXTERNAL LINKS NEEDED */
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: Arial, sans-serif; background-color: #030712; color: #f3f4f6; padding-bottom: 80px; }
-        
-        /* Fixed Sizing and Containers */
-        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        
-        /* Top Header Navigation */
-        nav { background-color: #0b0f19; border-bottom: 1px solid #1f2937; padding: 20px 0; }
-        .nav-box { display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 24px; font-weight: bold; color: #10b981; text-decoration: none; }
-        .nav-links a { color: #d1d5db; text-decoration: none; margin-left: 20px; font-size: 14px; font-weight: bold; }
-        .nav-links a:hover { color: #10b981; }
-        
-        /* Broad Desktop Grid System */
-        .hero-block { padding: 80px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 40px; }
-        .hero-text { flex: 1; min-width: 300px; }
-        .hero-image { flex: 0 0 350px; text-align: center; }
-        .hero-image img { width: 100%; max-width: 350px; border-radius: 20px; border: 2px solid #1f2937; box-shadow: 0 10px 20px rgba(0,0,0,0.5); }
-        
-        /* Typography Elements */
-        .badge { display: inline-block; background-color: rgba(16, 185, 129, 0.1); color: #34d399; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; margin-bottom: 15px; border: 1px solid rgba(16, 185, 129, 0.2); }
-        h1 { font-size: 42px; font-weight: 900; color: #ffffff; line-height: 1.2; margin-bottom: 20px; }
-        p.desc { font-size: 18px; color: #9ca3af; margin-bottom: 30px; }
-        
-        /* Stale Functional Blocks */
-        .block-section { padding: 60px 0; border-top: 1px solid #1f2937; }
-        .section-heading { font-size: 28px; color: #ffffff; margin-bottom: 30px; font-weight: bold; }
-        
-        /* Grid Layout Fixes */
-        .services-row { display: flex; flex-wrap: wrap; gap: 20px; }
-        .service-card { flex: 1; min-width: 280px; background-color: #0b0f19; border: 1px solid #1f2937; padding: 25px; border-radius: 15px; }
-        .service-card h3 { color: #10b981; font-size: 20px; margin-bottom: 10px; }
-        .service-card p { color: #9ca3af; font-size: 14px; }
-        
-        /* Button Mechanics */
-        .btn-green { display: inline-block; background-color: #10b981; color: #030712; padding: 14px 28px; border-radius: 10px; font-weight: bold; text-decoration: none; font-size: 16px; }
-        .btn-green:hover { background-color: #059669; }
-        .btn-white { display: inline-block; background-color: #ffffff; color: #030712; padding: 14px 28px; border-radius: 10px; font-weight: bold; text-decoration: none; font-size: 16px; }
-        
-        /* Review Img Box */
-        .review-img-box { background-color: #0b0f19; padding: 15px; border-radius: 15px; border: 1px solid #1f2937; max-width: 500px; margin-top: 20px; }
-        .review-img-box img { width: 100%; border-radius: 10px; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; }
     </style>
 </head>
 <body>
 
-    <!-- NAVIGATION HEADER -->
-    <nav>
-        <div class="container nav-box">
-            <a href="#" class="logo">ABDUL HAYEE SEO</a>
-            <div class="nav-links">
-                <a href="#services">Services</a>
-                <a href="#niches">Niches</a>
-                <a href="#reviews">Reviews</a>
-                <a href="#contact">Contact</a>
+    <!-- STICKY NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-gray-950/80 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">ABDUL HAYEE SEO</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="#hero" class="hover:text-emerald-400 transition">Home</a>
+                <a href="#services" class="hover:text-emerald-400 transition">Services</a>
+                <a href="#niches" class="hover:text-emerald-400 transition">Niches</a>
+                <a href="#reviews" class="hover:text-emerald-400 transition">Reviews</a>
+                <a href="#faq" class="hover:text-emerald-400 transition">FAQ</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
             </div>
+            <a href="https://wa.me" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-gray-950 px-5 py-2 rounded-full font-semibold text-sm transition shadow-lg shadow-emerald-500/20">Let's Chat</a>
         </div>
     </nav>
 
-    <!-- MAIN HOMEPAGE DISPLAY -->
-    <div class="container">
-        <div class="hero-block">
-            <div class="hero-text">
-                <span class="badge">🏆 European Link Building Authority</span>
-                <h1>Premium German Guest Posting Specialist</h1>
-                <p class="desc">Helping international brands and SEO agencies dominate Google Germany (Google.de) with high-authority, contextual, do-follow backlinks and bulletproof manual outreach.</p>
-                <a href="https://wa.me" target="_blank" class="btn-green">Get Fresh Inventory (WhatsApp)</a>
-            </div>
-            <div class="hero-image">
-                <img src="https://ibb.co" alt="Abdul Hayee SEO">
+    <!-- CLEAN HERO SECTION (NO BROKEN IMAGE IMPORTS) -->
+    <header id="hero" class="min-h-[75vh] flex items-center bg-gradient-to-b from-gray-950 to-gray-900">
+        <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+            <span class="inline-block px-3 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded-full text-xs font-semibold uppercase tracking-widest mb-6">🏆 European Link Building Authority</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6 text-white">Premium German Guest Posting Specialist</h1>
+            <p class="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">Helping international brands and SEO agencies dominate Google Germany (<span class="text-emerald-400">Google.de</span>) with high-authority, contextual, do-follow backlinks and bulletproof manual outreach.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://wa.me" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-gray-950 px-8 py-4 rounded-xl font-bold text-center transition shadow-xl shadow-emerald-500/20">Get Fresh Inventory (WhatsApp)</a>
+                <a href="#services" class="border border-gray-700 hover:border-emerald-500 hover:text-emerald-400 px-8 py-4 rounded-xl font-bold text-center transition">View Solutions</a>
             </div>
         </div>
+    </header>
 
-        <!-- SERVICES SECTION -->
-        <div id="services" class="block-section">
-            <h2 class="section-heading">Core SEO Link-Building Services</h2>
-            <div class="services-row">
-                <div class="service-card">
-                    <h3>🇩🇪 German Guest Posting</h3>
-                    <p>Dedicated contextual link placement on organic .DE, .AT, and .CH blogs with pure native content curation.</p>
-                </div>
-                <div class="service-card">
-                    <h3>🚀 Niche Edits & Insertions</h3>
-                    <p>Securing permanent contextual do-follow links inside pre-existing, high-traffic, aged European articles.</p>
-                </div>
-                <div class="service-card">
-                    <h3>💼 White-Label Reselling</h3>
-                    <p>Wholesale inventory pipelines and custom bulk sheets under strict NDAs for global marketing agencies.</p>
-                </div>
+    <!-- TRUST METRICS BAR -->
+    <section class="bg-gray-950 border-y border-gray-800 py-10">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <div><h3 class="text-3xl font-extrabold text-emerald-400 mb-1">500+</h3><p class="text-xs text-gray-400 uppercase tracking-wider">German Sites Available</p></div>
+            <div><h3 class="text-3xl font-extrabold text-cyan-400 mb-1">DR 80+</h3><p class="text-xs text-gray-400 uppercase tracking-wider">Max Domain Authority</p></div>
+            <div><h3 class="text-3xl font-extrabold text-emerald-400 mb-1">0%</h3><p class="text-xs text-gray-400 uppercase tracking-wider">Spam Score / Clean Profiles</p></div>
+            <div><h3 class="text-3xl font-extrabold text-cyan-400 mb-1">72h</h3><p class="text-xs text-gray-400 uppercase tracking-wider">Fast Publishing Loop</p></div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Core SEO Link-Building Services</h2>
+            <p class="text-gray-400 max-w-xl mx-auto">Tailored outreach and authority placements that pass heavy search engine algorithmic trust.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-emerald-500/50 transition">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 font-bold text-xl mb-6">🇩🇪</div>
+                <h3 class="text-xl font-bold mb-4 text-white">German Guest Posting</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Dedicated contextual link placement on organic .DE, .AT, and .CH blogs with pure native content curation.</p>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-cyan-400/50 transition">
+                <div class="w-12 h-12 bg-cyan-400/10 rounded-xl flex items-center justify-center text-cyan-400 font-bold text-xl mb-6">🚀</div>
+                <h3 class="text-xl font-bold mb-4 text-white">Niche Edits & Insertions</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Securing permanent contextual do-follow links inside pre-existing, high-traffic, aged European articles.</p>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-emerald-500/50 transition">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 font-bold text-xl mb-6">💼</div>
+                <h3 class="text-xl font-bold mb-4 text-white">White-Label Reselling</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Wholesale inventory pipelines and custom bulk sheets under strict NDAs for global marketing agencies.</p>
             </div>
         </div>
+    </section>
 
-        <!-- NICHES SECTION -->
-        <div id="niches" class="block-section">
-            <h2 class="section-heading">Industries We Cover</h2>
-            <p class="desc" style="font-size: 16px;">Business & Finance, Technology & AI, E-commerce & Retail, Health & Fitness, Travel & Lifestyle, Real Estate, Fashion & Beauty, Auto & Tech News.</p>
-        </div>
-
-        <!-- FEATURED NETWORK PORTAL -->
-        <div class="block-section" style="background-color: #0b0f19; padding: 40px; border-radius: 20px; border: 1px solid rgba(16, 185, 129, 0.2);">
-            <h3 style="color: #ffffff; font-size: 24px; margin-bottom: 10px;">Direct Admin Access: AlphaMagazine.net</h3>
-            <p class="desc" style="font-size: 15px; margin-bottom: 25px;">Get lightning-fast, guaranteed do-follow backlink placement directly on this premium news portal spanning across tech, business, and modern lifestyle content categories.</p>
-            <a href="https://alphamagazine.net" target="_blank" class="btn-white">Visit AlphaMagazine.net ↗</a>
-        </div>
-
-        <!-- CLIENT SUCCESS REVIEWS SECTION -->
-        <div id="reviews" class="block-section">
-            <h2 class="section-heading">Client Success & Case Studies</h2>
-            <p class="desc" style="font-size: 15px;">Real proof of ranking boosts and organic traffic screenshots from verified international clients.</p>
-            <div class="review-img-box">
-                <img src="https://ibb.co" alt="Client Review Screenshot">
+    <!-- NICHES SECTION -->
+    <section id="niches" class="bg-gray-900/50 border-y border-gray-800 py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Industries We Cover</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">We filter and source high-relevance metrics for almost every major commercial sector.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Business & Finance</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Technology & AI</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">E-commerce & Retail</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Health & Fitness</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Travel & Lifestyle</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Real Estate</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Fashion & Beauty</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Auto & Tech News</div>
             </div>
         </div>
+    </section>
 
-        <!-- CONTACT INFO BAR -->
-        <div id="contact" class="block-section">
-            <h2 class="section-heading">Let's Discuss Your Next Campaign</h2>
-            <p class="desc" style="font-size: 16px; margin-bottom: 15px;">📧 Email: Abdulhayee064@gmail.com</p>
-            <p class="desc" style="font-size: 16px; margin-bottom: 15px;">💬 WhatsApp: +92 307 6370790</p>
-            <p class="desc" style="font-size: 16px; margin-bottom: 15px;">🌐 Facebook: <a href="https://facebook.com" target="_blank" style="color: #10b981;">Abdul Hayee SEO</a></p>
+    <!-- FEATURED ASSET SECTION (CLICKABLE EXCELLENT ROUTE) -->
+    <section class="py-24 max-w-7xl mx-auto px-6">
+        <div class="bg-gradient-to-r from-emerald-950/40 to-cyan-950/40 border border-emerald-500/20 p-8 md:p-12 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="max-w-2xl">
+                <span class="px-2.5 py-1 bg-emerald-500/20 text-emerald-400 rounded-md text-xs font-bold uppercase tracking-wider mb-3 inline-block">Flagship Media Network Portal</span>
+                <h3 class="text-2xl md:text-3xl font-bold mb-3 text-white">Direct Admin Access: AlphaMagazine.net</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Get lightning-fast, guaranteed do-follow backlink placement directly on this premium news portal spanning across tech, business, and modern lifestyle content categories.</p>
+            </div>
+            <a href="https://alphamagazine.net" target="_blank" class="w-full md:w-auto shrink-0 bg-white hover:bg-gray-200 text-gray-950 px-8 py-4 rounded-xl font-bold text-center transition shadow-lg">Visit AlphaMagazine.net ↗</a>
         </div>
-    </div>
+    </section>
 
-</body>
-</html>
+    <!-- REVIEWS TEXT-ONLY SYSTEM TO REMOVE BROKEN BOXES -->
+    <section id="reviews" class="bg-gray-900/30 py-24 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Client Success & Case Studies</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">Real results and continuous monthly traffic growth delivered to international partners.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-950 p-8 rounded-2xl border border-gray-800">
