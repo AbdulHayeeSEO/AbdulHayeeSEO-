@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Hayee SEO - Premium German Link Building Specialist</title>
+    <script src="https://tailwindcss.com"></script>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; }
+        .hero-bg {
+            background-image: linear-gradient(to right, rgba(3, 7, 18, 0.95) 40%, rgba(3, 7, 18, 0.3) 100%), url('https://ibb.co');
+            background-size: cover; background-position: right center; background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- STICKY NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-gray-950/80 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#hero" class="text-xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">ABDUL HAYEE SEO</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
+                <a href="#hero" class="hover:text-emerald-400 transition">Home</a>
+                <a href="#services" class="hover:text-emerald-400 transition">Services</a>
+                <a href="#niches" class="hover:text-emerald-400 transition">Niches</a>
+                <a href="#reviews" class="hover:text-emerald-400 transition">Reviews</a>
+                <a href="#faq" class="hover:text-emerald-400 transition">FAQ</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+            </div>
+            <a href="https://wa.me" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-gray-950 px-5 py-2 rounded-full font-semibold text-sm transition shadow-lg shadow-emerald-500/20">Let's Chat</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="hero" class="hero-bg min-h-[85vh] flex items-center">
+        <div class="max-w-7xl mx-auto px-6 py-20 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block px-3 py-1 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 rounded-full text-xs font-semibold uppercase tracking-widest mb-4">🏆 European Link Building Authority</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">Premium German Guest Posting Specialist</h1>
+                <p class="text-lg text-gray-400 mb-8 max-w-xl">Helping international brands and SEO agencies dominate Google Germany (<span class="text-emerald-400">Google.de</span>) with high-authority, contextual, do-follow backlinks and bulletproof manual outreach.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-gray-950 px-8 py-4 rounded-xl font-bold text-center transition shadow-xl shadow-emerald-500/20">Get Fresh Inventory (WhatsApp)</a>
+                    <a href="#services" class="border border-gray-700 hover:border-emerald-500 hover:text-emerald-400 px-8 py-4 rounded-xl font-bold text-center transition">View Solutions</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TRUST METRICS BAR -->
+    <section class="bg-gray-900 border-y border-gray-800 py-10">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+            <div><h3 class="text-3xl font-extrabold text-emerald-400 mb-1">500+</h3><p class="text-xs text-gray-400 uppercase tracking-wider">German Sites Available</p></div>
+            <div><h3 class="text-3xl font-extrabold text-cyan-400 mb-1">DR 80+</h3><p class="text-xs text-gray-400 uppercase tracking-wider">Max Domain Authority</p></div>
+            <div><h3 class="text-3xl font-extrabold text-emerald-400 mb-1">0%</h3><p class="text-xs text-gray-400 uppercase tracking-wider">Spam Score / Clean Profiles</p></div>
+            <div><h3 class="text-3xl font-extrabold text-cyan-400 mb-1">72h</h3><p class="text-xs text-gray-400 uppercase tracking-wider">Fast Publishing Loop</p></div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Core SEO Link-Building Services</h2>
+            <p class="text-gray-400 max-w-xl mx-auto">Tailored outreach and authority placements that pass heavy search engine algorithmic trust.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-emerald-500/50 transition">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 font-bold text-xl mb-6">🇩🇪</div>
+                <h3 class="text-xl font-bold mb-4">German Guest Posting</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Dedicated contextual link placement on organic .DE, .AT, and .CH blogs with pure native content curation.</p>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-cyan-400/50 transition">
+                <div class="w-12 h-12 bg-cyan-400/10 rounded-xl flex items-center justify-center text-cyan-400 font-bold text-xl mb-6">🚀</div>
+                <h3 class="text-xl font-bold mb-4">Niche Edits & Insertions</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Securing permanent contextual do-follow links inside pre-existing, high-traffic, aged European articles.</p>
+            </div>
+            <div class="bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-emerald-500/50 transition">
+                <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 font-bold text-xl mb-6">💼</div>
+                <h3 class="text-xl font-bold mb-4">White-Label Reselling</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Wholesale inventory pipelines and custom bulk sheets under strict NDAs for global marketing agencies.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NICHES SECTION -->
+    <section id="niches" class="bg-gray-900/50 border-y border-gray-800 py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Industries We Cover</h2>
+                <p class="text-gray-400 max-w-xl mx-auto">We filter and source high-relevance metrics for almost every major commercial sector.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Business & Finance</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Technology & AI</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">E-commerce & Retail</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Health & Fitness</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Travel & Lifestyle</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Real Estate</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Fashion & Beauty</div>
+                <div class="bg-gray-950 p-6 rounded-xl border border-gray-800 hover:border-emerald-500 transition font-medium">Auto & Tech News</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED ASSET SECTION (CLICKABLE) -->
+    <section class="py-24 max-w-7xl mx-auto px-6">
+        <div class="bg-gradient-to-r from-emerald-950/40 to-cyan-950/40 border border-emerald-500/20 p-8 md:p-12 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="max-w-2xl">
+                <span class="px-2.5 py-1 bg-emerald-500/20 text-emerald-400 rounded-md text-xs font-bold uppercase tracking-wider mb-3 inline-block">Flagship Media Network Portal</span>
+                <h3 class="text-2xl md:text-3xl font-bold mb-3">Direct Admin Access: AlphaMagazine.net</h3>
+                <p class="text-sm text-gray-400 leading-relaxed">Get lightning-fast, guaranteed do-follow backlink placement directly on this premium news portal spanning across tech, business, and modern lifestyle content categories.</p>
+            </div>
+            <a href="https://alphamagazine.net" target="_blank" class="w-full md:w-auto shrink-0 bg-white hover:bg-gray-200 text-gray-950 px-8 py-4 rounded-xl font-bold text-center transition shadow-lg">Visit AlphaMagazine.net ↗</a>
+        </div>
+    </section>
+
+    <!-- CLIENT REVIEWS SECTION WITH YOUR ACTUAL SCREENSHOT -->
+    <section id="reviews" class="bg-gray-900/30 py-24 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Client Success & Case Studies</h2>
